@@ -19,12 +19,12 @@ const Programmer = (props) => {
           </div>
           <p class="card-text"></p>
           <p class="card-text">
-            <small class="text-muted">{joined}</small>
+            <small class="text-muted">joined {joined}</small>
           </p>
           <h5>job : {job}</h5>
           <h5>language : {language}</h5>
-          <h6>Income : {income}</h6>
-          <h5>selery scale: {salaryScale}</h5>
+          <h6>Income : ${income}</h6>
+          <h5>selery scale: ${salaryScale}</h5>
 
           <div className="button-container">
             <button
