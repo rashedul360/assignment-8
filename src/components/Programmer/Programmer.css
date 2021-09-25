@@ -1,0 +1,32 @@
+.programmer-container {
+  border-radius: 1rem;
+}
+
+.programmer-container img {
+  width: 200px;
+  border-radius: 50%;
+}
+.intro i {
+  font-size: 25px;
+  margin: 10px 5px;
+}
+.fa-facebook {
+  color: #077ae9;
+}
+.fa-twitter {
+  color: #0f9afb;
+}
+.programmers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 1rem;
+  grid-gap: 10px;
+  width: 80%;
+}
+.programmer img {
+  text-align: center;
+}
+.button-container {
+  margin-top: 30px;
+  text-align: center;
+}
