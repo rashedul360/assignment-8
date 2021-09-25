@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Cart.css";
 const Cart = (props) => {
   // console.log(props);
-  const { cart } = props;
 
+  const { cart } = props;
+  console.log(cart);
   let total = 0;
   for (let programmer of cart) {
     total += programmer.income;
@@ -15,6 +16,11 @@ const Cart = (props) => {
         Added <span style={{ color: "tomato" }}> {cart.length}</span>
       </h4>
       <h4>total : ${total}</h4>
+      {cart.map((programmer) => (
+        <ul class="list-item">
+          <li>{programmer.name}</li>
+        </ul>
+      ))}
     </div>
   );
 };

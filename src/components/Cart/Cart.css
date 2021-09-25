@@ -1,3 +1,10 @@
 .cart-programmers {
   color: mediumpurple;
 }
+.list-item li {
+  list-style-type: none;
+  text-align: start;
+  margin-top: 20px;
+  color: mediumpurple;
+  font-weight: 700;
+}
