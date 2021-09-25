@@ -11,10 +11,10 @@ const Programers = () => {
       .then((data) => setProgrammers(data));
   }, []);
   const addToSeminar = (programmer) => {
-    // console.log(programmer);
     let newCart = [...cart, programmer];
     setCart(newCart);
   };
+
   return (
     <div className="container d-flex justify-content-between">
       <div className="programmers">

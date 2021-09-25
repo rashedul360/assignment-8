@@ -3,7 +3,7 @@ import "./Header.css";
 const Header = () => {
   return (
     <div>
-      <div class="containers">
+      <div className="containers">
         <div>
           <h4 style={{ textTransform: "uppercase" }}>
             Hire world's best & most affordable

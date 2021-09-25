@@ -1,25 +1,23 @@
 import React from "react";
 import "./Programmer.css";
 const Programmer = (props) => {
-  // console.log(props.programmer);
   const { img, job, joined, language, income, name, salaryScale } =
     props.programmer;
   return (
     <div>
-      {/* <div class="card-group"> */}
-      <div class="card programmer-container">
+      <div className="card programmer-container">
         <div style={{ textAlign: "center" }} className="mt-3 ">
-          <img src={img} class="card-img-top" alt="..." />
+          <img src={img} className="card-img-top" alt="..." />
         </div>
-        <div class="card-body">
+        <div className="card-body">
           <div className="text-center intro">
-            <h5 class="card-title text-center">{name}</h5>
-            <i class="fab fa-facebook"></i>
-            <i class="fab fa-twitter"></i>
+            <h5 className="card-title text-center">{name}</h5>
+            <i className="fab fa-facebook"></i>
+            <i className="fab fa-twitter"></i>
           </div>
-          <p class="card-text"></p>
-          <p class="card-text">
-            <small class="text-muted">joined {joined}</small>
+          <p className="card-text"></p>
+          <p className="card-text">
+            <small className="text-muted">joined {joined}</small>
           </p>
           <h5>job : {job}</h5>
           <h5>language : {language}</h5>
@@ -36,16 +34,6 @@ const Programmer = (props) => {
           </div>
         </div>
       </div>
-      {/* </div> */}
-      {/* <div class="card" style={{ width: "18rem" }}>
-        <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">
-            With supporting text below as a natural lead-in to additional
-            content.
-          </p>
-        </div>
-      </div> */}
     </div>
   );
 };
