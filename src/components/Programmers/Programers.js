@@ -27,7 +27,7 @@ const Programers = () => {
         ))}
       </div>
       <div className="cart-container">
-        <Cart cart={cart}></Cart>
+        <Cart key={cart.forEach((p) => p.key)} cart={cart}></Cart>
       </div>
     </div>
   );

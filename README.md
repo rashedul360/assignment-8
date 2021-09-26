@@ -2,6 +2,8 @@
 
 # `netlify link : https://assignment-8-build.netlify.app/`
 
+## button এ ক্লিক করলে income টা এই ওয়েবসাইটে দেখানো হচ্ছে ।
+
 ## this website designed and development for a seminner .
 
 ## we are spend money for this seminar only $4000000

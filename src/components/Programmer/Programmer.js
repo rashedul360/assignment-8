@@ -1,7 +1,7 @@
 import React from "react";
 import "./Programmer.css";
 const Programmer = (props) => {
-  const { img, job, joined, language, income, name, salaryScale } =
+  const { img, job, joined, language, income, name, salaryScale, framework } =
     props.programmer;
   return (
     <div>
@@ -17,13 +17,14 @@ const Programmer = (props) => {
           </div>
           <p className="card-text"></p>
           <p className="card-text">
-            <small className="text-muted">joined {joined}</small>
+            <small className="text-muted">
+              joined <strong>{joined}</strong>
+            </small>
           </p>
           <h5>job : {job}</h5>
-          <h5>language : {language}</h5>
+          <h6>language/framework : {language ? language : framework}</h6>
           <h6>Income : ${income}</h6>
           <h5>selery scale: ${salaryScale}</h5>
-
           <div className="button-container">
             <button
               onClick={() => props.addToSeminar(props.programmer)}

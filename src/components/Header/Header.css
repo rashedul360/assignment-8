@@ -3,6 +3,7 @@
   color: #3f51b5;
   text-align: center;
 }
+/* intro section design  */
 .containers {
   display: flex;
   justify-content: space-around;
@@ -10,4 +11,9 @@
   background-image: url("https://preview.colorlib.com/theme/repair/img/banner-bg.jpg.webp");
   /* background-repeat: no-repeat; */
   color: white;
+  height: 40rem;
+}
+/* img width control  */
+.header-img-container img {
+  width: 30rem;
 }
