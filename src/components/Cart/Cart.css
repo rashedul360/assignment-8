@@ -10,10 +10,12 @@
   color: mediumpurple;
   font-weight: 700;
 }
+/* list item image width control */
 .list-item img {
   width: 40px;
   border-radius: 50%;
 }
+/* cart details container design  */
 .cart-details-container {
   display: flex;
   align-items: center;

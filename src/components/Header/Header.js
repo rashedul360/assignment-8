@@ -1,11 +1,14 @@
 import React from "react";
+// import css
 import "./Header.css";
+// import image
 import img from "../../images/undraw_Real_time_sync_re_nky7 (1).svg";
 const Header = () => {
   return (
     <div>
       {/* header container  */}
       <div className="containers">
+        {/* left side container  */}
         <div>
           <h4 style={{ textTransform: "uppercase" }}>
             welcome to our special seminar
@@ -20,15 +23,12 @@ const Header = () => {
         </div>
 
         <div className="header-img-container">
+          {/* right side image  */}
           <img src={img} alt="" />
-          {/* <img
-            src="https://preview.colorlib.com/theme/repair/img/xbanner-img.png.pagespeed.ic.XS9Hnga4Mj.webp"
-            alt=""
-          /> */}
         </div>
       </div>
     </div>
   );
 };
-
+// export component
 export default Header;

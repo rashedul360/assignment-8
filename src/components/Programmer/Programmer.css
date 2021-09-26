@@ -13,10 +13,13 @@
 .intro i {
   font-size: 25px;
   margin: 10px 5px;
+  cursor: pointer;
 }
+/* facebook icon design  */
 .fa-facebook {
   color: #077ae9;
 }
+/* twitter icon design  */
 .fa-twitter {
   color: #0f9afb;
 }
