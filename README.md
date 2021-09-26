@@ -1,6 +1,6 @@
 # seminar with top programmers in bangladesh.
 
-## netlify link [go to live site](https://github.com/facebook/create-react-app).
+## netlify link [go to live site](https://assignment-8-build.netlify.app).
 
 ## button এ ক্লিক করলে income টা এই ওয়েবসাইটে দেখানো হচ্ছে ।
 
