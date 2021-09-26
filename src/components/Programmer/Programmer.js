@@ -32,7 +32,7 @@ const Programmer = (props) => {
           <div className="button-container">
             <button
               onClick={() => props.addToSeminar(props.programmer)}
-              className="btn btn-warning fas fa-user-plus"
+              className="btn btn-warning fas fa-user-plus "
             >
               add to seminar{" "}
             </button>

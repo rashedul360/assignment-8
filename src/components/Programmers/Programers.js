@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 // import components
 import Cart from "../Cart/Cart";
 import Programmer from "../Programmer/Programmer";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Programers = () => {
   // use state
@@ -19,28 +21,34 @@ const Programers = () => {
       let newCart = [...cart, programmer];
       setCart(newCart);
     } else {
-      alert("already added");
+      toast.error("already addedd, please try to click another");
     }
   };
 
   return (
-    <div className="container d-flex justify-content-between">
-      <div className="programmers">
-        {/* call Programmer component  */}
-        {programmers.map((programmer) => (
-          <Programmer
-            // delevery some API data
-            key={programmer.key}
-            addToSeminar={addToSeminar}
-            programmer={programmer}
-          ></Programmer>
-        ))}
+    <>
+      <div>
+        <ToastContainer position="top-center" autoClose={4000} />
       </div>
-      <div className="cart-container">
-        {/* call Cart component  */}
-        <Cart cart={cart}></Cart>
+      <div className="container d-flex justify-content-between">
+        {/* Same as */}
+        <div className="programmers">
+          {/* call Programmer component  */}
+          {programmers.map((programmer) => (
+            <Programmer
+              // delevery some API data
+              key={programmer.key}
+              addToSeminar={addToSeminar}
+              programmer={programmer}
+            ></Programmer>
+          ))}
+        </div>
+        <div className="cart-container">
+          {/* call Cart component  */}
+          <Cart cart={cart}></Cart>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 // export component
