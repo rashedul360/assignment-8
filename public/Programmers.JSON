@@ -7,7 +7,7 @@
     "income": 8000,
     "salaryScale": 6800,
     "language": "Javascript",
-    "key": 101
+    "key": 1010
   },
   {
     "img": "https://pbs.twimg.com/profile_images/874172653405327360/QyysiBs5_400x400.jpg",
@@ -17,7 +17,7 @@
     "income": 5000,
     "salaryScale": 3800,
     "language": "Javascript",
-    "key": 102
+    "key": 1020
   },
   {
     "img": "https://pbs.twimg.com/profile_images/1313143643398721537/29J0U2P__400x400.jpg",
@@ -27,7 +27,7 @@
     "income": 7000,
     "salaryScale": 5890,
     "language": "Java",
-    "key": 103
+    "key": 1030
   },
   {
     "img": "https://avatars.githubusercontent.com/u/34616507?v=4",
@@ -37,7 +37,7 @@
     "income": 2000,
     "salaryScale": 1580,
     "language": "JS",
-    "key": 203
+    "key": 2030
   },
   {
     "img": "https://media-exp1.licdn.com/dms/image/C5103AQF7IJuwsajaLA/profile-displayphoto-shrink_200_200/0/1580564496981?e=1638403200&v=beta&t=nvX9eoDwOltEDRT2xBeSQgy_TI-BYnf4bSATALHd86w",
@@ -47,7 +47,7 @@
     "income": 4000,
     "salaryScale": 3292,
     "language": "C++",
-    "key": 204
+    "key": 2040
   },
 
   {
@@ -58,7 +58,7 @@
     "income": 1500,
     "salaryScale": 850,
     "language": "php",
-    "key": 104
+    "key": 1040
   },
   {
     "img": "https://www.truelancer.com/_next/image?url=https%3A%2F%2Fcdn.truelancer.com%2Fuser-picture%2F2544870-613dccd4373f6.jpg&w=1920&q=75",
@@ -68,7 +68,7 @@
     "income": 500,
     "salaryScale": 250,
     "language": "c++",
-    "key": 105
+    "key": 1050
   },
   {
     "img": "https://www.truelancer.com/_next/image?url=https%3A%2F%2Fcdn.truelancer.com%2Fuser-picture%2F1780519-5f21c2f5c6142.jpg&w=1920&q=75",
@@ -78,7 +78,7 @@
     "income": 2000,
     "salaryScale": 1250,
     "framework": "CodeIgniter",
-    "key": 106
+    "key": 1060
   },
   {
     "img": "https://www.truelancer.com/_next/image?url=https%3A%2F%2Fcdn.truelancer.com%2Fuser-picture%2F14152-553e73d60428a.jpg&w=1920&q=75",
@@ -88,17 +88,17 @@
     "income": 1600,
     "salaryScale": 850,
     "language": "javascript",
-    "key": 107
+    "key": 1070
   },
   {
     "img": "https://www.truelancer.com/_next/image?url=https%3A%2F%2Fcdn.truelancer.com%2Fuser-picture%2F77771-553dc263e4ded.jpg&w=1920&q=75",
     "name": "Muhammad Ashikuzzaman ",
-    "job": "JavaScript and Responsive",
+    "job": "JavaScript ",
     "joined": "6 years ago",
     "income": 3000,
     "salaryScale": 2380,
     "language": "javascript",
-    "key": 108
+    "key": 1080
   },
   {
     "img": "https://www.truelancer.com/_next/image?url=https%3A%2F%2Fcdn.truelancer.com%2Fuser-picture%2F78761-55045d3ee9690.jpg&w=1920&q=75",
@@ -108,7 +108,7 @@
     "income": 800,
     "salaryScale": 620,
     "language": "PHP",
-    "key": 109
+    "key": 1090
   },
   {
     "img": "https://www.truelancer.com/_next/image?url=https%3A%2F%2Fcdn.truelancer.com%2Fuser-picture%2F126529-558dcc4d440d7.jpg&w=1920&q=75",
@@ -118,6 +118,6 @@
     "income": 3000,
     "salaryScale": 2380,
     "language": "Python",
-    "key": 110
+    "key": 1100
   }
 ]

@@ -6,7 +6,15 @@
 .list-item li {
   list-style-type: none;
   text-align: start;
-  margin-top: 20px;
+  margin-left: 10px;
   color: mediumpurple;
   font-weight: 700;
+}
+.list-item img {
+  width: 40px;
+  border-radius: 50%;
+}
+.cart-details-container {
+  display: flex;
+  align-items: center;
 }

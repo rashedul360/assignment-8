@@ -14,8 +14,11 @@ const Cart = (props) => {
       </h4>
       <h4>Total Cost : ${total}</h4>
       {cart.map((programmer) => (
-        <ul className="list-item">
-          <li>{programmer.name}</li>
+        <ul key={programmer.key} className="list-item">
+          <div className="cart-details-container">
+            <img src={programmer.img} alt="" />
+            <li>{programmer.name}</li>
+          </div>
         </ul>
       ))}
     </div>

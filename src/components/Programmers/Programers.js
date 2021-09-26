@@ -11,8 +11,12 @@ const Programers = () => {
       .then((data) => setProgrammers(data));
   }, []);
   const addToSeminar = (programmer) => {
-    let newCart = [...cart, programmer];
-    setCart(newCart);
+    if (cart.indexOf(programmer) === -1) {
+      let newCart = [...cart, programmer];
+      setCart(newCart);
+    } else {
+      alert("already added");
+    }
   };
 
   return (
@@ -27,7 +31,7 @@ const Programers = () => {
         ))}
       </div>
       <div className="cart-container">
-        <Cart key={cart.forEach((p) => p.key)} cart={cart}></Cart>
+        <Cart cart={cart}></Cart>
       </div>
     </div>
   );
